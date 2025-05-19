@@ -1,6 +1,5 @@
 "use client";
 import { reports } from "@/lib/data";
-import { useState } from "react";
 
 export default function SidebarButtons({ onSelect }: { onSelect: (url: string) => void }) {
   return (
