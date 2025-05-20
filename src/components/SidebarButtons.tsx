@@ -7,7 +7,7 @@ export default function SidebarButtons({ onSelect }: { onSelect: (url: string) =
       {reports.map((item, i) => (
         <button
           key={i}
-          className="text-left hover:text-black hover:bg-white hover:shadow-md mr-4 rounded-sm p-4 transition-shadow font-bold"
+          className="text-left hover:text-black hover:bg-white hover:shadow-md mr-4 rounded-2xl p-4 transition-shadow font-bold"
           onClick={() => onSelect(item.url)}
         >
           <span className="block font-medium">{item.title}</span>

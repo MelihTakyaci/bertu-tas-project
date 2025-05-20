@@ -17,7 +17,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen flex flex-col p-6 gap-6">
       <Navbar />
-      <div className="flex sm:flex-row flex-col">
+      <div className="flex sm:flex-row flex-col p-4">
         <SidebarButtons onSelect={(url) => setSelectedUrl(url)} />
         
         {!isMobile && selectedUrl && (
