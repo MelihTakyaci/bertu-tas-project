@@ -6,7 +6,7 @@ export default function Navbar() {
       <div className="flex justify-between items-center">
         <span className="text-gray-600 font-medium text-lg deu-rengi-text">DEÜ</span>
         <h1 className="text-lg font-semibold text-gray-800 gradient-yazi">Bertuğ Taş</h1>
-        <span className="text-gray-600 font-medium text-lg">CSAI Başkanı</span>
+        <span className="text-gray-600 font-medium text-lg">CSC</span>
       </div>
     </header>
   );

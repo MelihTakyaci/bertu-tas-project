@@ -9,7 +9,7 @@ export default function MobileModal({ url, onClose }: { url: string; onClose: ()
   }, [onClose]);
 
   return (
-    <div className="fixed inset-0 z-50 bg-black bg-opacity-50 flex items-center justify-center p-4">
+    <div className="fixed inset-0 z-50 bg-white bg-opacity-50 flex items-center justify-center p-4">
       <div className="bg-white rounded-md p-4 max-w-lg w-full">
         <iframe src={url} className="w-full h-64" allowFullScreen />
         <button onClick={onClose} className="mt-4 text-sm text-blue-500">Kapat</button>
